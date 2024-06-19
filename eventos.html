@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+</head>
+<style>
+    body {
+        background-image: url(img/varios-animais-aafricanos.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    h1 {
+        text-align: center;
+        background-color: brown;
+        color: white;
+    }
+
+    #primeira {
+        margin-left: 540px;
+        margin-right: 340px;
+        margin-top: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    button {
+        color: white;
+        background-color: red;
+    }
+
+    #segunda {
+        margin-top: 600px;
+        margin-right: 320px;
+        margin-left: 340px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #terceira {
+        margin-top: 500px;
+        margin-right: 320px;
+        margin-left: 340px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #final {
+        color: white;
+        margin-top: 250px;
+    }
+</style>
+
+<body>
+    <h1>Aprendendo os animais</h1>
+    <section id="primeira">
+        <button id="hipo" onclick="hipo0()" onmouseenter="hipo1()" onmouseout="hipo2()">QUAL É MEU NOME?</button>
+        <button id="macaco" onclick="macaco0()" onmouseenter="macaco1()" onmouseout="macaco2()">QUAL É MEU
+            NOME?</button>
+    </section>
+    <section id="segunda">
+        <button id="leao" onclick="leao0()" onmouseenter="leao1()" onmouseout="leao2()">QUAL É MEU NOME?</button>
+        <button id="girafa" onclick="girafa0()" onmouseenter="girafa1()" onmouseout="girafa2()">QUAL É MEU
+            NOME?</button>
+        <button id="onca" onclick="onca0()" onmouseenter="onca1()" onmouseout="onca2()">QUAL É MEU NOME?</button>
+    </section>
+    <section id="terceira">
+        <button id="zebra" onclick="zebra0()" onmouseenter="zebra1()" onmouseout="zebra2()">QUAL É MEU NOME?</button>
+        <button id="rino" onclick="rino0()" onmouseenter="rino1()" onmouseout="rino2()">QUAL É MEU NOME?</button>
+    </section>
+    <P id="final">.</P>
+    <script>
+        function hipo0() {
+            var rino = document.getElementById("hipo")
+            hipo.style.color = "white"
+            hipo.style.backgroundColor = "green"
+            hipo.innerText = "MEU NOME É RINOCERONTE"
+        }
+        function hipo1() {
+            var hipo = document.getElementById("hipo")
+            hipo.style.color = "purple"
+            hipo.style.backgroundColor = "yellow"
+            hipo.innerText = "CLIQUE PARA DESCOBRIR!"
+        }
+        function rino2() {
+            var hipo = document.getElementById("hipo")
+            hipo.style.color = "white"
+            hipo.style.backgroundColor = "red"
+            hipo.innerText = "QUAL É MEU NOME?"
+        }
+        function macaco0() {
+            var macaco = document.getElementById("macaco")
+            macaco.style.color = "white"
+            macaco.style.backgroundColor = "green"
+            macaco.innerText = "MEU NOME É MACACO"
+        }
+        function macaco1() {
+            var macaco = document.getElementById("macaco")
+            macaco.style.color = "purple"
+            macaco.style.backgroundColor = "yellow"
+            macaco.innerText = "CLIQUE PARA DESCOBRIR!"
+        }
+        function macaco2() {
+            var macaco = document.getElementById("macaco")
+            macaco.style.color = "white"
+            macaco.style.backgroundColor = "red"
+            macaco.innerText = "QUAL É MEU NOME?"
+        }
+        function leao0() {
+            var leao = document.getElementById("leao")
+            leao.style.color = "white"
+            leao.style.backgroundColor = "green"
+            leao.innerText = "MEU NOME É LEÃO"
+        }
+        function leao1() {
+            var leao = document.getElementById("leao")
+            leao.style.color = "purple"
+            leao.style.backgroundColor = "yellow"
+            leao.innerText = "CLIQUE PARA DESCOBRIR!"
+        }
+        function leao2() {
+            var leao = document.getElementById("leao")
+            leao.style.color = "white"
+            leao.style.backgroundColor = "red"
+            leao.innerText = "QUAL É MEU NOME?"
+        }
+        function girafa0() {
+            var girafa = document.getElementById("girafa")
+            girafa.style.color = "white"
+            girafa.style.backgroundColor = "green"
+            girafa.innerText = "MEU NOME É GIRAFA"
+        }
+        function girafa1() {
+            var girafa = document.getElementById("girafa")
+            girafa.style.color = "purple"
+            girafa.style.backgroundColor = "yellow"
+            girafa.innerText = "CLIQUE PARA DESCOBRIR!"
+        }
+        function girafa2() {
+            var girafa = document.getElementById("girafa")
+            girafa.style.color = "white"
+            girafa.style.backgroundColor = "red"
+            girafa.innerText = "QUAL É MEU NOME?"
+        }
+        function onca0() {
+            var onca = document.getElementById("onca")
+            onca.style.color = "white"
+            onca.style.backgroundColor = "green"
+            onca.innerText = "MEU NOME É ONÇA"
+        }
+        function onca1() {
+            var onca = document.getElementById("onca")
+            onca.style.color = "purple"
+            onca.style.backgroundColor = "yellow"
+            onca.innerText = "CLIQUE PARA DESCOBRIR!"
+        }
+        function onca2() {
+            var onca = document.getElementById("onca")
+            onca.style.color = "white"
+            onca.style.backgroundColor = "red"
+            onca.innerText = "QUAL É MEU NOME?"
+        }
+        function zebra0() {
+            var zebra = document.getElementById("zebra")
+            zebra.style.color = "white"
+            zebra.style.backgroundColor = "green"
+            zebra.innerText = "MEU NOME É ZEBRA"
+        }
+        function zebra1() {
+            var zebra = document.getElementById("zebra")
+            zebra.style.color = "purple"
+            zebra.style.backgroundColor = "yellow"
+            zebra.innerText = "CLIQUE PARA DESCOBRIR!"
+        }
+        function zebra2() {
+            var zebra = document.getElementById("zebra")
+            zebra.style.color = "white"
+            zebra.style.backgroundColor = "red"
+            zebra.innerText = "QUAL É MEU NOME?"
+        }
+        function rino0() {
+            var rino = document.getElementById("rino")
+            rino.style.color = "white"
+            rino.style.backgroundColor = "green"
+            rino.innerText = "MEU NOME É RINOCERONTE"
+        }
+        function rino1() {
+            var rino = document.getElementById("rino")
+            rino.style.color = "purple"
+            rino.style.backgroundColor = "yellow"
+            rino.innerText = "CLIQUE PARA DESCOBRIR!"
+        }
+        function rino2() {
+            var rino = document.getElementById("rino")
+            rino.style.color = "white"
+            rino.style.backgroundColor = "red"
+            rino.innerText = "QUAL É MEU NOME?"
+        }
+    </script>
+</body>
+
+</html>
